@@ -1,3 +1,3 @@
 struct BLS_swift {
-    var text = "Hello, World!"
+    var text = "Hello, Wsorld!"
 }

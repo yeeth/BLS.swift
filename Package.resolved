@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CBls",
+        "repositoryURL": "/Users/erictu/git-repos/yeeth/CBls",
+        "state": {
+          "branch": null,
+          "revision": "5733031c5d34b923c96a18305a6a9658a3105c57",
+          "version": "0.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
