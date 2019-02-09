@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "BLS",
+    name: "BLS.swift",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-    .package(url: "../CBls", from: "0.0.3")
+        //.package(url: "../CBls", from: "0.1.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.

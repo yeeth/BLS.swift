@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BLS::BLS"
-               BuildableName = "BLS.framework"
+               BlueprintIdentifier = "BLS.swift::BLS"
+               BuildableName = "BLS"
                BlueprintName = "BLS"
-               ReferencedContainer = "container:BLS.xcodeproj">
+               ReferencedContainer = "container:BLS.swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BLS::BLSTests"
+               BlueprintIdentifier = "BLS.swift::BLSTests"
                BuildableName = "BLSTests.xctest"
                BlueprintName = "BLSTests"
-               ReferencedContainer = "container:BLS.xcodeproj">
+               ReferencedContainer = "container:BLS.swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -52,15 +52,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BLS::BLS"
-            BuildableName = "BLS.framework"
+            BlueprintIdentifier = "BLS.swift::BLS"
+            BuildableName = "BLS"
             BlueprintName = "BLS"
-            ReferencedContainer = "container:BLS.xcodeproj">
+            ReferencedContainer = "container:BLS.swift.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

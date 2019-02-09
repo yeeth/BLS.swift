@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"BLS.swift::BLS.swiftPackageTests::ProductTarget" /* BLS.swiftPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_33 /* Build configuration list for PBXAggregateTarget "BLS.swiftPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_36 /* PBXTargetDependency */,
+			);
+			name = BLS.swiftPackageTests;
+			productName = BLS.swiftPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1E87CB11220F71B800237286 /* wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E87CB0F220F71B800237286 /* wrapper.cpp */; };
+		1E87CB32220F8D2400237286 /* libmcl-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87CB14220F74D500237286 /* libmcl-lib.a */; };
+		1E87CB33220F8DBF00237286 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87CB27220F895100237286 /* libcrypto.a */; };
+		1E87CB39220F901700237286 /* libmcl-lib.so in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87CB38220F901700237286 /* libmcl-lib.so */; };
+		OBJ_23 /* BLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BLS.swift */; };
+		OBJ_24 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* main.swift */; };
+		OBJ_31 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_42 /* BLSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* BLSTests.swift */; };
+		OBJ_43 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* XCTestManifests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E87CB06220F6D2700237286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "BLS.swift::BLS";
+			remoteInfo = BLS;
+		};
+		1E87CB07220F6D2900237286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "BLS.swift::BLSTests";
+			remoteInfo = BLSTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E87CB09220F6D5500237286 /* mcl-pys */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "mcl-pys"; path = "Sources/mcl-pys"; sourceTree = "<group>"; };
+		1E87CB0B220F6F8700237286 /* libmclbn384_256.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmclbn384_256.a; path = "Sources/mcl-pys/lib/libmclbn384_256.a"; sourceTree = "<group>"; };
+		1E87CB0E220F71B800237286 /* BLS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLS-Bridging-Header.h"; sourceTree = "<group>"; };
+		1E87CB0F220F71B800237286 /* wrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wrapper.cpp; sourceTree = "<group>"; };
+		1E87CB12220F74A800237286 /* libmcl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmcl.a; path = "Sources/mcl-pys/lib/libmcl.a"; sourceTree = "<group>"; };
+		1E87CB14220F74D500237286 /* libmcl-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmcl-lib.a"; path = "Sources/mcl-pys/bazel-bin/libmcl-lib.a"; sourceTree = "<group>"; };
+		1E87CB16220F756E00237286 /* libmcl-lib.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libmcl-lib.so"; path = "Sources/mcl-pys/bazel-bin/libmcl-lib.so"; sourceTree = "<group>"; };
+		1E87CB18220F7E2000237286 /* libmclbn384_256_dy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmclbn384_256_dy.dylib; path = "Sources/mcl-pys/lib/libmclbn384_256_dy.dylib"; sourceTree = "<group>"; };
+		1E87CB19220F7E2000237286 /* libmcl_dy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmcl_dy.dylib; path = "Sources/mcl-pys/lib/libmcl_dy.dylib"; sourceTree = "<group>"; };
+		1E87CB1A220F7E2000237286 /* libmclbn256_dy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmclbn256_dy.dylib; path = "Sources/mcl-pys/lib/libmclbn256_dy.dylib"; sourceTree = "<group>"; };
+		1E87CB1B220F7E2000237286 /* libmclbn512_dy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmclbn512_dy.dylib; path = "Sources/mcl-pys/lib/libmclbn512_dy.dylib"; sourceTree = "<group>"; };
+		1E87CB1C220F7E2000237286 /* libmclbn384_dy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmclbn384_dy.dylib; path = "Sources/mcl-pys/lib/libmclbn384_dy.dylib"; sourceTree = "<group>"; };
+		1E87CB24220F850700237286 /* libmclbn384_256.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmclbn384_256.a; path = "Sources/mcl-pys/bazel-mcl-pys/lib/libmclbn384_256.a"; sourceTree = "<group>"; };
+		1E87CB27220F895100237286 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../../../../../usr/local/Cellar/openssl/1.0.2q/lib/libcrypto.a; sourceTree = "<group>"; };
+		1E87CB29220F897500237286 /* libgmpxx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmpxx.a; path = ../../../../../usr/local/Cellar/gmp/6.1.2_2/lib/libgmpxx.a; sourceTree = "<group>"; };
+		1E87CB2A220F897500237286 /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmp.a; path = ../../../../../usr/local/Cellar/gmp/6.1.2_2/lib/libgmp.a; sourceTree = "<group>"; };
+		1E87CB34220F8DEA00237286 /* libbls384_256.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbls384_256.a; path = ../../../../../usr/local/lib/libbls384_256.a; sourceTree = "<group>"; };
+		1E87CB35220F8DEA00237286 /* libbls384.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbls384.a; path = ../../../../../usr/local/lib/libbls384.a; sourceTree = "<group>"; };
+		1E87CB38220F901700237286 /* libmcl-lib.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libmcl-lib.so"; path = "Sources/mcl-pys/bazel-out/darwin-fastbuild/bin/libmcl-lib.so"; sourceTree = "<group>"; };
+		"BLS.swift::BLS::Product" /* BLS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BLS; sourceTree = BUILT_PRODUCTS_DIR; };
+		"BLS.swift::BLSTests::Product" /* BLSTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = BLSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_13 /* BLSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLSTests.swift; sourceTree = "<group>"; };
+		OBJ_14 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* BLS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				1E87CB39220F901700237286 /* libmcl-lib.so in Frameworks */,
+				1E87CB33220F8DBF00237286 /* libcrypto.a in Frameworks */,
+				1E87CB32220F8D2400237286 /* libmcl-lib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E87CB0A220F6F8700237286 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E87CB38220F901700237286 /* libmcl-lib.so */,
+				1E87CB34220F8DEA00237286 /* libbls384_256.a */,
+				1E87CB35220F8DEA00237286 /* libbls384.a */,
+				1E87CB2A220F897500237286 /* libgmp.a */,
+				1E87CB29220F897500237286 /* libgmpxx.a */,
+				1E87CB27220F895100237286 /* libcrypto.a */,
+				1E87CB24220F850700237286 /* libmclbn384_256.a */,
+				1E87CB19220F7E2000237286 /* libmcl_dy.dylib */,
+				1E87CB1A220F7E2000237286 /* libmclbn256_dy.dylib */,
+				1E87CB18220F7E2000237286 /* libmclbn384_256_dy.dylib */,
+				1E87CB1C220F7E2000237286 /* libmclbn384_dy.dylib */,
+				1E87CB1B220F7E2000237286 /* libmclbn512_dy.dylib */,
+				1E87CB16220F756E00237286 /* libmcl-lib.so */,
+				1E87CB14220F74D500237286 /* libmcl-lib.a */,
+				1E87CB12220F74A800237286 /* libmcl.a */,
+				1E87CB0B220F6F8700237286 /* libmclbn384_256.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		OBJ_11 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* BLSTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* BLSTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* BLSTests.swift */,
+				OBJ_14 /* XCTestManifests.swift */,
+			);
+			name = BLSTests;
+			path = Tests/BLSTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"BLS.swift::BLS::Product" /* BLS */,
+				"BLS.swift::BLSTests::Product" /* BLSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_11 /* Tests */,
+				OBJ_15 /* Products */,
+				1E87CB0A220F6F8700237286 /* Frameworks */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1E87CB09220F6D5500237286 /* mcl-pys */,
+				OBJ_8 /* BLS */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* BLS */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* BLS.swift */,
+				OBJ_10 /* main.swift */,
+				1E87CB0F220F71B800237286 /* wrapper.cpp */,
+				1E87CB0E220F71B800237286 /* BLS-Bridging-Header.h */,
+			);
+			name = BLS;
+			path = Sources/BLS;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"BLS.swift::BLS" /* BLS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_19 /* Build configuration list for PBXNativeTarget "BLS" */;
+			buildPhases = (
+				OBJ_22 /* Sources */,
+				OBJ_25 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLS;
+			productName = BLS;
+			productReference = "BLS.swift::BLS::Product" /* BLS */;
+			productType = "com.apple.product-type.tool";
+		};
+		"BLS.swift::BLSTests" /* BLSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_38 /* Build configuration list for PBXNativeTarget "BLSTests" */;
+			buildPhases = (
+				OBJ_41 /* Sources */,
+				OBJ_44 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_45 /* PBXTargetDependency */,
+			);
+			name = BLSTests;
+			productName = BLSTests;
+			productReference = "BLS.swift::BLSTests::Product" /* BLSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"BLS.swift::SwiftPMPackageDescription" /* BLS.swiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_27 /* Build configuration list for PBXNativeTarget "BLS.swiftPackageDescription" */;
+			buildPhases = (
+				OBJ_30 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLS.swiftPackageDescription;
+			productName = BLS.swiftPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"BLS.swift::BLS" = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "BLS.swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"BLS.swift::BLS" /* BLS */,
+				"BLS.swift::SwiftPMPackageDescription" /* BLS.swiftPackageDescription */,
+				"BLS.swift::BLS.swiftPackageTests::ProductTarget" /* BLS.swiftPackageTests */,
+				"BLS.swift::BLSTests" /* BLSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_23 /* BLS.swift in Sources */,
+				OBJ_24 /* main.swift in Sources */,
+				1E87CB11220F71B800237286 /* wrapper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_31 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_42 /* BLSTests.swift in Sources */,
+				OBJ_43 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "BLS.swift::BLSTests" /* BLSTests */;
+			targetProxy = 1E87CB07220F6D2900237286 /* PBXContainerItemProxy */;
+		};
+		OBJ_45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "BLS.swift::BLS" /* BLS */;
+			targetProxy = 1E87CB06220F6D2700237286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/erictu/git-repos/yeeth/BLS-gh/Sources/mcl-pys/include/mcl",
+					"/Users/erictu/git-repos/yeeth/BLS-gh/Sources/mcl-pys/include/cybozu",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLS.swift.xcodeproj/BLS_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path /Users/erictu/git-repos/yeeth/BLS-gh/Sources/mcl-pys/lib /Users/erictu/git-repos/yeeth/BLS-gh/Sources/mcl-pys/bazel-out/darwin-fastbuild/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/mcl-pys/lib",
+					"$(PROJECT_DIR)/Sources/mcl-pys/bazel-bin",
+					"$(PROJECT_DIR)/Sources/mcl-pys/bazel-mcl-pys/lib",
+					/usr/local/Cellar/openssl/1.0.2q/lib,
+					/usr/local/Cellar/gmp/6.1.2_2/lib,
+					"$(PROJECT_DIR)/Sources/mcl-pys/bazel-out/darwin-fastbuild/bin",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lgmp",
+					"-lgmpxx",
+					"-lcrypto",
+					"-m64",
+					"-lstdc++",
+					"-lmcl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/BLS/BLS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = BLS;
+			};
+			name = Debug;
+		};
+		OBJ_21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/erictu/git-repos/yeeth/BLS-gh/Sources/mcl-pys/include/mcl",
+					"/Users/erictu/git-repos/yeeth/BLS-gh/Sources/mcl-pys/include/cybozu",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLS.swift.xcodeproj/BLS_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path /Users/erictu/git-repos/yeeth/BLS-gh/Sources/mcl-pys/lib /Users/erictu/git-repos/yeeth/BLS-gh/Sources/mcl-pys/bazel-out/darwin-fastbuild/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/mcl-pys/lib",
+					"$(PROJECT_DIR)/Sources/mcl-pys/bazel-bin",
+					"$(PROJECT_DIR)/Sources/mcl-pys/bazel-mcl-pys/lib",
+					/usr/local/Cellar/openssl/1.0.2q/lib,
+					/usr/local/Cellar/gmp/6.1.2_2/lib,
+					"$(PROJECT_DIR)/Sources/mcl-pys/bazel-out/darwin-fastbuild/bin",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lgmp",
+					"-lgmpxx",
+					"-lcrypto",
+					"-m64",
+					"-lstdc++",
+					"-lmcl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/BLS/BLS-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = BLS;
+			};
+			name = Release;
+		};
+		OBJ_28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = BLS.swift.xcodeproj/BLSTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = BLSTests;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = BLS.swift.xcodeproj/BLSTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = BLSTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_19 /* Build configuration list for PBXNativeTarget "BLS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_20 /* Debug */,
+				OBJ_21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "BLS.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_27 /* Build configuration list for PBXNativeTarget "BLS.swiftPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_28 /* Debug */,
+				OBJ_29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_33 /* Build configuration list for PBXAggregateTarget "BLS.swiftPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_34 /* Debug */,
+				OBJ_35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_38 /* Build configuration list for PBXNativeTarget "BLSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_39 /* Debug */,
+				OBJ_40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
