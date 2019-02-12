@@ -2,6 +2,7 @@
 //  Use this file to import your target's public headers that you would like to expose to Swift.
 //
 #define MCLBN_FP_UNIT_SIZE 6
+//#define MCLBN_FR_UNIT_SIZE 4
 #define MCL_MAX_FP_BIT_SIZE 384
 #define MCL_MAX_FR_BIT_SIZE 256
 #import <bls.h>
@@ -11,3 +12,4 @@ int blsInit(int curve, int compiledTimeVar );
 void initializeBLS();
 
 int  blsSecretKeySet (blsSecretKey *sec);
+int getFRUnit();
